@@ -93,6 +93,7 @@ public class App {
 	    	
 	    	System.out.println("test");
 	    	System.out.println("test");
+	    	System.out.println("test");
 
 	        Stream.of("Conrad","Hilton","Shilla","Hayatt","Westin","Sangrila").forEach(name-> repository.save(new Hotel(name)));
 
